@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	go build -v ./cmd/sso
+	go build -o ./bin/sso -v ./cmd/sso 
 .PHONY: test
 test:
 	go test -v -race -timeout 30s ./...
