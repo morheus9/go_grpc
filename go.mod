@@ -1,3 +1,3 @@
-module github.com/morheus9/2
+module github.com/morheus9/go_grpc
 
-go 1.12.2
+go 1.12.5
